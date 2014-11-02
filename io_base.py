@@ -3,7 +3,7 @@
 #
 #       io_base.py
 #       
-#       Copyright 2013 Zifu Wang <zifu.wang@icloud.com>
+#       Copyright 2013 Zifu Wang <z@mesh2mesh.com>
 #       
 
 import os

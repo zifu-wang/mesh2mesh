@@ -3,7 +3,7 @@
 #
 #       quadrature_class.py
 #       
-#       Copyright 2013 Zifu Wang <zifu.wang@icloud.com>
+#       Copyright 2013 Zifu Wang <z@mesh2mesh.com>
 #
 
 import numpy as np
