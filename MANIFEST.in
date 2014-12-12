@@ -1,0 +1,28 @@
+# Top-level build scripts
+include setup.py
+include MANIFEST.in
+include *.txt
+
+# All python source files
+recursive-include m2m *.py
+
+# All lib files
+recursive-include m2m *.so
+
+# All material-tab files
+recursive-include m2m *.tab
+
+# All documentation
+recursive-include doc *
+
+# All bin files
+recursive-include bin *
+
+# All test files
+recursive-include test *
+
+# Exclude what we don't want to include
+global-exclude *.pyc *.bak *.swp *~
+prune */__pycache__
+prune */experimental
+recursive-exclude m2m *.f *.f90 makefile
